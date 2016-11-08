@@ -1,0 +1,23 @@
+{
+  "name": "clientgrok",
+  "description": "Grok your clients",
+  "homepage": "http://meanjs.org/",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~4",
+    "angular": "~1.3",
+    "angular-resource": "~1.3",
+    "angular-animate": "~1.3",
+    "angular-mocks": "~1.3",
+    "angular-bootstrap": "~0.13",
+    "angular-ui-utils": "bower",
+    "angular-ui-router": "~0.2",
+    "angular-file-upload": "1.1.5",
+    "angular-messages": "~1.3.17",
+    "owasp-password-strength-test": "~1.3.0",
+    "font-awesome": "latest"
+  },
+  "resolutions": {
+    "angular": "~1.3"
+  }
+}

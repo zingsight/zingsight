@@ -1,0 +1,36 @@
+.navbar-fixed-left {
+  width: 220px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  background: #252525;
+  color: #FFF;
+}
+
+.navbar-brand {
+    float: none;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+.navbar-sidebar-list {
+    padding-left: 0;
+}
+
+.navbar-sidebar-list a {
+    color: #FFF;
+}
+
+.navbar-sidebar-list li{
+    list-style: none;
+}
+
+.navbar-sidebar-list-header {
+    margin-top: 50px;
+}
+
+.navbar-sidebar-list-account {
+    margin: 20px 0;
+}
