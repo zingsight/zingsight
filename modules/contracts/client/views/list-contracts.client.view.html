@@ -1,0 +1,22 @@
+<section>
+  <div class="page-header">
+    <h1>Contracts</h1>
+  </div>
+  <div class="list-group">
+    <a ng-repeat="contract in vm.contracts"
+       ui-sref="contracts.view({ contractId: contract._id })"
+       class="list-group-item">
+      <small class="list-group-item-text">
+        Posted on
+        <span ng-bind="contract.created | date:'mediumDate'"></span>
+        by
+        <span ng-if="contract.user" ng-bind="contract.user.displayName"></span>
+        <span ng-if="!contract.user">Deleted User</span>
+      </small>
+      <h4 class="list-group-item-heading" ng-bind="contract.name"></h4>
+    </a>
+  </div>
+  <div class="alert alert-warning text-center" ng-if="vm.contracts.$resolved && !vm.contracts.length">
+    No Contracts yet, why don't you <a ui-sref="contracts.create">create one</a>?
+  </div>
+</section>
